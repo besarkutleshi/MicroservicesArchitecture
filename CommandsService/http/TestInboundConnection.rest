@@ -1,0 +1,6 @@
+
+
+
+### local env
+###
+POST http://localhost:6000/api/c/platforms
