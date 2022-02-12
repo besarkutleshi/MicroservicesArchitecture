@@ -27,10 +27,10 @@ namespace PlatformService.Controllers {
         }
 
         [HttpPost]
-        public IActionResult CreatePlatform(PlatformCreateDto platformCreateDto) {
+        public ActionResult<PlatformCreateDto> CreatePlatform(PlatformCreateDto platformCreateDto) {
             _platformRepo.CreatePlatform(_mapper.Map<Platform>(platformCreateDto));
             if(_platformRepo.SaveChanges()){
-                return Ok();
+                return Ok(platformCreateDto);
             }
             return BadRequest();
         }

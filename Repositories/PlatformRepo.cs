@@ -21,7 +21,6 @@ namespace PlatformService.Repositories {
                 throw new ArgumentNullException(nameof(platform));
             }
             _appDbContext.Platforms.Add(platform);
-            SaveChanges();
         }
 
         public IEnumerable<Platform> GetAllPlatforms()
