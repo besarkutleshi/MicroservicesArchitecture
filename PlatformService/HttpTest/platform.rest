@@ -10,3 +10,4 @@ Get http://localhost:8080/api/platform
 
 
 ### K8S env
+GET http://localhost:32219/api/platform
