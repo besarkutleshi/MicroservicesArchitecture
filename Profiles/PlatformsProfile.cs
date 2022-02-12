@@ -6,8 +6,8 @@ namespace PlatformService.Profiles {
     public class PlatformsProfile : Profile  {
         public PlatformsProfile()
         {
-            CreateMap<Platform, PlatformCreateDto>();
-            CreateMap<PlatformReadDto,Platform>();
+            CreateMap<Platform, PlatformReadDto>();
+            CreateMap<PlatformCreateDto, Platform>();
         }
     }
 }
