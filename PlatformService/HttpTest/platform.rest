@@ -21,3 +21,17 @@ Get http://localhost:8080/api/platform
 
 ### K8S env
 GET http://localhost:32219/api/platform
+
+###
+POST http://localhost:32219/api/platform
+content-type: application/json
+
+{
+    "Name":"Docker",
+    "Publisher":"Docker",
+    "Cost":"Free"
+}
+
+
+###
+GET http://platforms-clusterip-srv:80/api/platform
