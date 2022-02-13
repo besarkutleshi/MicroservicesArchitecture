@@ -4,6 +4,16 @@
 ### 
 Get http://localhost:5000/api/platform
 
+###
+POST http://localhost:5000/api/platform
+content-type: application/json
+
+{
+    "Name":"Docker",
+    "Publisher":"Docker",
+    "Cost":"Free"
+}
+
 ### docker env
 ###
 Get http://localhost:8080/api/platform

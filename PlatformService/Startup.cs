@@ -15,6 +15,7 @@ using Microsoft.OpenApi.Models;
 using PlatformService.Data;
 using PlatformService.Interfaces;
 using PlatformService.Repositories;
+using PlatformService.SyncDataServices.Http;
 
 namespace PlatformService
 {
@@ -31,14 +32,16 @@ namespace PlatformService
             services.AddDbContext<AppDbContext>(options => {
                 options.UseInMemoryDatabase("InMemory");
             });
-            
             services.AddScoped<IPlatformRepo,PlatformRepo>();
+            services.AddHttpClient<ICommandDataClient,HttpCommandDataClient>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PlatformService", Version = "v1" });
             });
+
+            System.Console.WriteLine($"--> CommandService Endpoint {Configuration["CommandService"]}");
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
