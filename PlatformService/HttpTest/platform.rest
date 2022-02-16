@@ -34,4 +34,4 @@ content-type: application/json
 
 
 ###
-GET http://platforms-clusterip-srv:80/api/platform
+GET http://acme.com/api/platform
