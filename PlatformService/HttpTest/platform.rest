@@ -27,11 +27,37 @@ POST http://localhost:32219/api/platform
 content-type: application/json
 
 {
+    "Name":"Diqka",
+    "Publisher":"Diqka",
+    "Cost":"Free"
+}
+
+// ingres-nginx tests
+### GET ALL PLATFORMS
+GET http://acme.com/api/platform
+
+### POST NEW PLATFORM
+POST http://acme.com/api/platform
+content-type: application/json
+
+{
     "Name":"Docker",
     "Publisher":"Docker",
     "Cost":"Free"
 }
 
 
+### GET ALL PLATFORMS FROM COMMANDS
+GET http://acme.com/api/c/platforms
+
+### POST NEW COMMAND FOR PLATFORM
+POST http://acme.com/api/c/platforms/4/commands
+content-type: application/json
+
+{
+    "HowTo" : "Build a .net project",
+    "CommandLine" : "dotnet build"
+}
+
 ###
-GET http://acme.com/api/platform
+GET http://acme.com/api/c/platforms/4/commands

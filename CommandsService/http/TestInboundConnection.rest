@@ -8,10 +8,10 @@ POST http://localhost:6000/api/c/platforms
 ###
 GET  http://localhost:6000/api/c/platforms
 ###
-GET  http://localhost:6000/api/c/platforms/1/commands
+GET  http://localhost:6000/api/c/platforms/5/commands
 
 ###
-POST http://localhost:6000/api/c/platforms/1/commands
+POST http://localhost:6000/api/c/platforms/5/commands
 content-type: application/json
 
 {

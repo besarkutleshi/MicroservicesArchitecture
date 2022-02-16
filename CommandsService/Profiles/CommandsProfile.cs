@@ -1,5 +1,6 @@
 using AutoMapper;
 using CommandsService.Dtos;
+using CommandsService.Dtos.RabbitMQDtos;
 using CommandsService.Models;
 
 namespace CommandsService.Profiles {
@@ -9,6 +10,7 @@ namespace CommandsService.Profiles {
             CreateMap<Platform, PlatformReadDto>();
             CreateMap<CommandCreateDto, Command>();
             CreateMap<Command, CommandReadDto>();
+            CreateMap<PlatformPublishedDto, Platform>().ForMember(dest => dest.ExternalID, opt => opt.MapFrom(src => src.ID));
         }
     }
 }

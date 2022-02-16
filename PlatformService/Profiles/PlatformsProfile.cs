@@ -1,5 +1,6 @@
 using AutoMapper;
 using PlatformService.Dtos;
+using PlatformService.Dtos.RabbitMQ;
 using PlatformService.Models;
 
 namespace PlatformService.Profiles {
@@ -8,6 +9,7 @@ namespace PlatformService.Profiles {
         {
             CreateMap<Platform, PlatformReadDto>();
             CreateMap<PlatformCreateDto, Platform>();
+            CreateMap<PlatformReadDto, PlatformPublishedDto>();
         }
     }
 }

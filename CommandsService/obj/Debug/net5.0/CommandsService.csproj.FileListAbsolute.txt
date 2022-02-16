@@ -66,3 +66,5 @@ C:\Users\keds30604\Desktop\Microservices\CommandsService\obj\Debug\net5.0\Comman
 C:\Users\keds30604\Desktop\Microservices\CommandsService\obj\Debug\net5.0\ref\CommandsService.dll
 C:\Users\keds30604\Desktop\Microservices\CommandsService\obj\Debug\net5.0\CommandsService.pdb
 C:\Users\keds30604\Desktop\Microservices\CommandsService\obj\Debug\net5.0\CommandsService.genruntimeconfig.cache
+C:\Users\keds30604\Desktop\Microservices\CommandsService\bin\Debug\net5.0\appSettings.Production.json
+C:\Users\keds30604\Desktop\Microservices\CommandsService\bin\Debug\net5.0\RabbitMQ.Client.dll
