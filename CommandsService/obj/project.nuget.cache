@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "PxWTD0OHYb8wpbLbg8E0SuxxF2cSJ3BCXxrOa5IYwlJFvu9bVTxYRdqLDqIDJVjlK6LRK6jz2HNRJCfLfJjwiA==",
+  "dgSpecHash": "CXzC/AcjqGDv31Yr5tycyhRpSkACgqlNR0H/qme/dI5qOKbX9J9s5gp6IU9VMCuWu4DHCI+nzGXP35ZnAe84Uw==",
   "success": true,
   "projectFilePath": "C:\\Users\\keds30604\\Desktop\\Microservices\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\keds30604\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\keds30604\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\keds30604\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
+    "C:\\Users\\keds30604\\.nuget\\packages\\grpc.core.api\\2.42.0\\grpc.core.api.2.42.0.nupkg.sha512",
+    "C:\\Users\\keds30604\\.nuget\\packages\\grpc.net.client\\2.42.0\\grpc.net.client.2.42.0.nupkg.sha512",
+    "C:\\Users\\keds30604\\.nuget\\packages\\grpc.net.common\\2.42.0\\grpc.net.common.2.42.0.nupkg.sha512",
+    "C:\\Users\\keds30604\\.nuget\\packages\\grpc.tools\\2.44.0\\grpc.tools.2.44.0.nupkg.sha512",
     "C:\\Users\\keds30604\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\keds30604\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\keds30604\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
