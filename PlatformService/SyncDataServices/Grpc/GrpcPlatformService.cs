@@ -1,10 +1,7 @@
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Grpc.Core;
 using PlatformService.Interfaces;
-using PlatformService.Models;
 
 namespace PlatformService.SyncDataServices.Grpc
 {
